@@ -2,50 +2,23 @@
 <html>
     <head>
         <style>
-            .imgbox{
+            .w-100{    
+                display: block;
                 height: 100%;
-                position: relative;
-            }
-            .the_image{
-                max-width: 100%;
                 max-height: 100vh;
-                margin: auto;
+                margin-left: auto;
+                margin-right: auto;
             }
-            .imgbox .arrow{
-                position:absolute;
-                z-index: 1;
-                top: 50%;
-                color: white;
-                font-size: 81px;
-            }
-            .imgbox .arrow.left{
-                left: 0%;
-            }
-            .imgbox .arrow.right{
-                right: 0%;
-            }
-            svg rect{
-                position: absolute;
-                overflow: hidden;
-                fill: red;
-                top:0px;
-                width: 81px;
-                height: 100%;
-            }
-
         </style>
     </head>
     <body style="background-color: black;">
-        
-        <div class="imgbox">
-            <img class="the_image" src="img/001 - REM 3D.jpg" alt="rem">
-            <span class="arrow left">
-                ⇐
-            </span>
-            <span class="arrow right">⇒</span>
+        <div id="carouselRem" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item-active">
+                    <img src="/img/001 - REM 3D.jpg" class="d-block w-100">
+                </div>
+            </div>
         </div>
-        <span>
-            <svg height="100%" viewbox="0 0 100 100" perserveAspectRatio:none;><rect></rect></svg>
-        </span>
+        </div>
     </body>
 </html>
