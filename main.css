@@ -6,3 +6,8 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+.carousel-control-prev,.carousel-control-next{
+    position: fixed;
+    top: 0%;
+}
