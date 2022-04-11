@@ -1,6 +1,7 @@
-.resize{    
+.resize{
     display: block;
-    height: 100%;
+    height:100%;
+    max-width: 100vw;
     max-height: 100vh;
     margin-left: auto;
     margin-right: auto;
